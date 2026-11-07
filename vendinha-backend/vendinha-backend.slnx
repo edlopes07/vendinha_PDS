@@ -1,0 +1,4 @@
+<Solution>
+	<Project Path="vendinha-backend.csproj" />
+  <Project Path="..\vendinha-backend.Desktop\vendinha-backend.Desktop.csproj" />
+</Solution>
