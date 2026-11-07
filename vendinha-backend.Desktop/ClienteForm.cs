@@ -8,10 +8,6 @@ public partial class ClienteForm : Form
     private readonly ClienteService service;
     private readonly Cliente? clienteOriginal;
 
-    public ClienteForm() : this(new ClienteService())
-    {
-    }
-
     public ClienteForm(ClienteService service, Cliente? cliente = null)
     {
         this.service = service;
