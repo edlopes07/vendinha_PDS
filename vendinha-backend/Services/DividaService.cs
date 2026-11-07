@@ -68,17 +68,17 @@ public class DividaService
         }
     }
 
-    public bool AlternarPagamento(int id)
+    public bool Pagar(int id)
     {
         using var context = new VendinhaDbContext(connectionString);
-        var divida = context.Dividas.FirstOrDefault(d => d.Id == id);
+        var divida = context.Dividas.FirstOrDefault(d => d.Id == id && !d.Paga);
         if (divida == null)
         {
             return false;
         }
-
-        divida.Paga = !divida.Paga;
-        divida.DataPagamento = divida.Paga ? DateTime.Now : null;
+    
+        divida.Paga = true;
+        divida.DataPagamento = DateTime.Now;
         return context.SaveChanges() == 1;
     }
 }
