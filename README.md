@@ -19,3 +19,5 @@ Para executar a aplicação, siga os passos abaixo:
 
 A aplicação será iniciada após a compilação do projeto.
 
+# Observações adicionais
+Para realizar alterações e manipular dívidas do usuário, basta clicar com o botão direito na linha do grid e selecionar a opção desejada.
