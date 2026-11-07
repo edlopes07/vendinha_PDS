@@ -20,5 +20,7 @@ Para executar a aplicação, siga os passos abaixo:
 A aplicação será iniciada após a compilação do projeto.
 
 ## Observações adicionais
-- Para realizar alterações e manipular dívidas do usuário, basta clicar com o botão direito na linha do grid e selecionar a opção desejada.
+- Para realizar alterações e manipular dívidas do cliente:
+  1. Clique com o botão direito do mouse na linha do grid;
+  2. Escolha a opção desejada (ex: Editar cliente, Dívidas etc...)
 - Dívidas dadas como `pagas` não podem ser revertidas.
