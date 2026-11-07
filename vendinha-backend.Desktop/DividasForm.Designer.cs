@@ -61,7 +61,6 @@ partial class DividasForm
         gridDividas.Dock = DockStyle.Fill;
         gridDividas.ReadOnly = true;
         gridDividas.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-        gridDividas.SelectionChanged += gridDividas_SelectionChanged;
 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
