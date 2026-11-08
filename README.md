@@ -2,6 +2,14 @@
 
 Projeto desenvolvido como parte da **P2 da disciplina de Plataforma de Desenvolvimento de Sistemas**.
 
+### Ferramentas utilizadas
+- .NET Core/8+ com C#.
+- Visual Studio
+    #### Extensões:
+- Microsoft.Data.Sqlite
+- Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore.Sqlite 
+
 ## Integrantes
 
 - Eduardo Lopes Alves
