@@ -5,10 +5,11 @@ Projeto desenvolvido como parte da **P2 da disciplina de Plataforma de Desenvolv
 ### Ferramentas utilizadas
 - .NET Core/8+ com C#.
 - Visual Studio
-    #### Extensões:
+    #### Extensões / Pacotes NuGet:
+- Live Share
 - Microsoft.Data.Sqlite
 - Microsoft.EntityFrameworkCore
-- Microsoft.EntityFrameworkCore.Sqlite 
+- Microsoft.EntityFrameworkCore.Sqlite
 
 ## Integrantes
 
