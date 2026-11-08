@@ -46,8 +46,6 @@ CREATE UNIQUE INDEX IF NOT EXISTS ux_dividas_aberta_por_cliente
     ON dividas(clientecpf) WHERE paga = 0;
 ```
 
-**Observação:** o último índice é particularmente importante: por utilizar `WHERE paga = 0`, ele permite que um cliente tenha várias dívidas quitadas, mas somente uma dívida em aberto.
-
 ### Observações adicionais
 - Para realizar alterações e manipular dívidas do cliente:
   1. Clique com o botão direito do mouse na linha do grid;
