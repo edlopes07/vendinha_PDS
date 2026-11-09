@@ -40,5 +40,5 @@ A aplicação disponibiliza as seguintes funcionalidades:
 -   Dívidas pagas não podem ser reabertas.
 -   Um cliente não pode possuir mais de uma dívida em aberto
     simultaneamente.
--   O CPF informado deve possuir um formato válido.
--   O cliente deve ter no mínimo 15 anos de idade.
+-   O CPF informado deve possuir 11 dígitos e apenas números.
+-   O cliente deve ter de 15 a 100 anos de idade.
