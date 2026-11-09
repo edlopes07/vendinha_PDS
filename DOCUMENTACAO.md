@@ -13,9 +13,9 @@ financeiro e a organização dos registros.
 
 ### 2.1 Extensões e Bibliotecas
 
--   **Microsoft.Data.Sqlite** --- versão 10.0.14
--   **Microsoft.EntityFrameworkCore** --- versão 10.0.14
--   **Microsoft.EntityFrameworkCore.Sqlite** --- versão 10.0.14
+-   **Microsoft.Data.Sqlite** --- `versão 10.0.14`
+-   **Microsoft.EntityFrameworkCore** --- `versão 10.0.14`
+-   **Microsoft.EntityFrameworkCore.Sqlite** --- `versão 10.0.14`
 
 ### 2.2 Ferramentas e Tecnologias
 
@@ -42,3 +42,4 @@ A aplicação disponibiliza as seguintes funcionalidades:
     simultaneamente.
 -   O CPF informado deve possuir 11 dígitos e apenas números.
 -   O cliente deve ter de 15 a 100 anos de idade.
+-   O valor da dívida deve ser maior que `R$ 00,00`
