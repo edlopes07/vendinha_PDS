@@ -1,16 +1,16 @@
 CREATE TABLE IF NOT EXISTS clientes (
-	cpf            TEXT PRIMARY KEY,
-	nome           TEXT NOT NULL,
-	email          TEXT NULL,
+	cpf TEXT PRIMARY KEY,
+	nome TEXT NOT NULL,
+	email TEXT NULL,
 	datanascimento TEXT NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS dividas (
-	id            INTEGER PRIMARY KEY AUTOINCREMENT,
-	clientecpf    TEXT NOT NULL,
-	valor         REAL NOT NULL CHECK (valor > 0),
-	paga          INTEGER NOT NULL DEFAULT 0 CHECK (paga IN (0, 1)),
-	datacriacao   TEXT NOT NULL,
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	clientecpf TEXT NOT NULL,
+	valor REAL NOT NULL CHECK (valor > 0),
+	paga INTEGER NOT NULL DEFAULT 0 CHECK (paga IN (0, 1)),
+	datacriacao TEXT NOT NULL,
 	datapagamento TEXT NULL,
 	FOREIGN KEY (clientecpf) REFERENCES clientes(cpf)
 );
